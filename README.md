@@ -1,3 +1,100 @@
+### Tasks
+
+##### Task 1
+
+1. go to github
+2. register by providing username, email, and password then click Sign up for GitHub button
+3. check that you are redircted to github.com/join
+4. check there is a label with text "Verify your account"
+   // username: "tom-smith-coder",
+   username: "tom-smith-coder@tmpbox.net",
+   password: "tom-smith-coder@tmpbox.net",
+
+##### Task 2
+
+1. go to github
+2. scroll down and check register by providing username, email, and password then click Sign up for GitHub button
+3. do as Task 1 steps 3 & 4
+
+##### Task 3
+
+1. go to github
+2. click Sign in the top right corner
+3. type your username/email and password and then click Sign in
+4. check if it will redirect you to your profile
+
+##### Task 4
+
+1. go to github
+2. click Sign in the top right corner
+3. click "Forgot password"
+4. you have 2 test cases
+   4.1. negative, for example empty email, incorrect format
+   4.2. positive, your valid email
+
+##### Task 5
+
+1. go to github
+2. go to the top left menu items and mouse hover every item
+3. check every item have drop down menu
+
+##### Task 6
+
+1. go to github
+2. go to the top left menu items and click Pricing then Plans
+3. scroll down and click on "Join for free"
+4. it will redirect to "Create your account"
+5. type Username, Email address, Password, and all other fields
+
+##### Task 7
+
+1. go to github
+2. click explore menu, then "Explore GitHut"
+3. go to Topics tab
+4. check if "Topics Browse popular topics on GitHub." banner exist
+
+##### Task 8
+
+1. go to github
+2. go to search box and type webdriverio and press enter
+3. go to the Language left side bar and click TypeScript
+4. click the first result "igniteram/appium-webdriverio-typescript"
+5. check the address of the page address link contains the word "webdriverio"
+
+##### Task 9
+
+1. go to github
+2. go to "Get started with GitHub Enterprise" banner
+3. click "Start a free trial" button, then you will be redirected to another page
+4. click "Enterprise Cloud" banner, then you will be redirected to another page
+5. type Username, Email address, Password, and all other fields
+
+##### Task 10
+
+1. go to github
+2. go to "Get started with GitHub Enterprise" banner
+3. click "Start a free trial" button, then you will be redirected to another page
+4. click "Enterprise Server" banner, then you will be redirected to another page
+5. type Name, Company, Work email, Phone number, Choose your installation type, Do you have any other questions about GitHub Enterprise?, Accept terms of use, Verify you're not a robot and click on "Get Started" button
+
+##### Task 11
+
+1. go to github
+2. scroll down and click on Careers
+3. click on Open positions
+4. output all Open positions in console <div class="pb-md-6">
+
+### Resources
+
+1. Автоматизация тестирования на JavaScript + webdriverIO (Vadym Morozov)
+   https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
+
+2.
+
+### Remarks
+
+1.
+
 ### Points to cover
 
 1. WebdriverIO best practices
@@ -64,11 +161,3 @@ https://validator.w3.org/checklink
   https://github.com/axios/axios
 - Request  
   https://github.com/request/request
-
-### Resources
-
-1.
-
-### Remarks
-
-1.
