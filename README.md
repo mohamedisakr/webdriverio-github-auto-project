@@ -2,13 +2,10 @@
 
 ##### Task 1
 
-1. go to github
+1. go to github https://github.com/join
 2. register by providing username, email, and password then click Sign up for GitHub button
 3. check that you are redircted to github.com/join
 4. check there is a label with text "Verify your account"
-   // username: "tom-smith-coder",
-   username: "tom-smith-coder@tmpbox.net",
-   password: "tom-smith-coder@tmpbox.net",
 
 ##### Task 2
 
@@ -82,7 +79,7 @@
 1. go to github
 2. scroll down and click on Careers
 3. click on Open positions
-4. output all Open positions in console <div class="pb-md-6">
+4. output all Open positions in console `<div class="pb-md-6">`
 
 ### Resources
 
@@ -93,13 +90,14 @@
 
 ### Remarks
 
-1.
+1. Task 11: render the result as HTML Table
 
-### Points to cover
+### Points to review
 
 1. WebdriverIO best practices
 2. Project structure
 3. Parallel Testing
+4. Design Patterns for Scalable Test Automation
 
 ### Official W3C list of supported selector types:
 
