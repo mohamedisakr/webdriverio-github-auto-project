@@ -27,8 +27,8 @@
 2. click Sign in the top right corner
 3. click "Forgot password"
 4. you have 2 test cases
-   4.1. negative, for example empty email, incorrect format
-   4.2. positive, your valid email
+   4.1 negative, invalid email (empty email, incorrect format)
+   4.2 positive, valid email
 
 ##### Task 5
 
