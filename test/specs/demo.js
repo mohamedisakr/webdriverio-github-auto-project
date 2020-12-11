@@ -37,16 +37,18 @@ describe.skip("Task 6", () => {
 describe("Task 7", () => {
   it("Explore GitHut", () => {
     // 1. go to github
-    browser.url("https://github.com/");
+    browser.url("https://github.com/explore"); // ("https://github.com/");
 
     // 2. click explore menu, then "Explore GitHut"
-    const $explore = $("a[href='/explore']");
-    $explore.click();
+    // const $explore = $("a[href='/explore']");
+    // $explore.click();
 
     // 3. go to Topics tab
     const $topics = $(
       "[class='d-flex flex-wrap flex-items-center flex-justify-center flex-md-justify-start text-center text-md-left'] [href='/topics']"
     );
+    $topics.click();
+
     // 4. check if "Topics Browse popular topics on GitHub." banner exist
     const $banner = $("[class='h0-mktg']");
     $banner.waitForExist();
