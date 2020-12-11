@@ -2,10 +2,11 @@
 
 ##### Task 1
 
-1. go to github https://github.com/join
-2. register by providing username, email, and password then click Sign up for GitHub button
-3. check that you are redircted to github.com/join
-4. check there is a label with text "Verify your account"
+1. go to github
+2. click Sign up button
+3. register by providing username, email, and password
+4. check that you are redircted to github.com/join
+5. check there is a label with text "Verify your account"
 
 ##### Task 2
 

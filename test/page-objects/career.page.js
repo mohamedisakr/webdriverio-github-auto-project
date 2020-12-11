@@ -7,12 +7,12 @@ class Career extends PageBase {
   }
 
   // container
-  // get $container() {
-  //   return $("[class='pb-md-6']");
-  // }
+  get $container() {
+    return $("[class='pb-md-6']");
+  }
 
-  get $openPositions() {
-    return $$(
+  get $$openPositions() {
+    return $.$container.$$(
       "button[type='button'][class='js-details-target d-block width-full btn-link h3-mktg text-normal muted-link']"
     );
   }

@@ -11,8 +11,11 @@ class PageBase {
   load() {
     browser.url(this.path);
   }
+}
 
-  /*
+module.exports = PageBase;
+
+/*
   get $siteHeader() {
     return $('[data-qa-id="site-header"]');
   }
@@ -25,6 +28,3 @@ class PageBase {
     return $('[data-qa-id="site-footer"]');
   }
   */
-}
-
-module.exports = PageBase;
