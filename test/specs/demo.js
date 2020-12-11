@@ -2,12 +2,12 @@
 describe.skip("Task 6", () => {
   it("price and plans", () => {
     // 1. go to github
-    browser.url("https://github.com/");
+    browser.url("https://github.com/pricing"); //("https://github.com/");
 
     // 2. go to the top left menu items and click Pricing then Plans
-    const $pricing = $("=Pricing");
-    // expect($pricing).toBeDisplayed();
-    $pricing.click();
+    // const $pricing = $("=Pricing");
+    // // expect($pricing).toBeDisplayed();
+    // $pricing.click();
 
     // 3. scroll down and click on "Join for free"
     const $join = $("=Join for free");
@@ -23,18 +23,24 @@ describe.skip("Task 6", () => {
       { timeoutMessage: `Expected url must be ${url}` }
     );
 
-    // 5. type Username, Email address, Password, and all other fields
-    const $username = $("#id='user_login'");
+    // // 5. type Username, Email address, Password, and all other fields
+    // const $username = $("#id='user_login'");
+    const $banner = $(
+      "[class='d-none d-md-block mt-0 mb-3 text-center h00-mktg lh-condensed-ultra ']"
+    );
 
-    // $username.waitForDisplayed();
-    $username.waitForExist();
-    $username.scrollIntoView();
-    expect($username).toBeDisplayed();
+    // // $username.waitForDisplayed();
+    // $username.waitForExist();
+    // $username.scrollIntoView();
+    // expect($username).toBeDisplayed();
+    $banner.waitForExist();
+    $banner.scrollIntoView();
+    expect($banner).toBeDisplayed();
   });
 });
 // */
 
-describe("Task 7", () => {
+describe.skip("Task 7", () => {
   it("Explore GitHut", () => {
     // 1. go to github
     browser.url("https://github.com/explore"); // ("https://github.com/");
@@ -54,5 +60,30 @@ describe("Task 7", () => {
     $banner.waitForExist();
     $banner.scrollIntoView();
     expect($banner).toBeDisplayed();
+  });
+});
+
+//
+describe("Task 8", () => {
+  it("TypeScript language", () => {
+    // 1. go to github
+    browser.url("https://github.com/");
+
+    // 2. go to search box and type webdriverio and press enter
+    const $searchBox = $("[name='q']");
+    $searchBox.setValue("webdriverio");
+    $searchBox.click(); // \uE007	"Enter"
+    $searchBox.keys("\uE007");
+
+    // 3. go to the Language left side bar and click TypeScript
+    const $language = $("a[href*='TypeScript']"); //$("=TypeScript");
+    $language.waitForExist();
+
+    // 4. click the first result "igniteram/appium-webdriverio-typescript"
+    const $firstResult = $(".repo-list-item:nth-child(1) .v-align-middle");
+    $firstResult.click();
+
+    // 5. check the address of the page address link contains the word "webdriverio"
+    expect(browser.getUrl()).toHaveTextContaining("webdriverio"); //.toHaveAttributeContaining("href", "webdriverio"); //toHaveTextContaining("webdriverio");
   });
 });
