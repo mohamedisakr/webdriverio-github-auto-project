@@ -12,14 +12,14 @@ class Career extends PageBase {
   }
 
   get $$openPositions() {
-    return $.$container.$$(
+    return $$(
       "button[type='button'][class='js-details-target d-block width-full btn-link h3-mktg text-normal muted-link']"
     );
   }
 
   getOpenPosistions() {
     let table = `\n`;
-    this.$openPositions.forEach((position) => {
+    this.$$openPositions.forEach((position) => {
       let department = getTrimmedText(
         position.$("h3[class='float-left h3-mktg text-normal py-4']")
       );

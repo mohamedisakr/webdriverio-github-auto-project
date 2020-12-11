@@ -39,23 +39,23 @@ class Auth extends PageBase {
     );
   }
 
-  clearSession() {
-    browser.execute(() => window.localStorage.clear());
-  }
+  // clearSession() {
+  //   browser.execute(() => window.localStorage.clear());
+  // }
 
-  loginViaApi(user) {
-    const token = browser.call(() => {
-      return api.getAuthToken(user);
-    });
+  // loginViaApi(user) {
+  //   const token = browser.call(() => {
+  //     return api.getAuthToken(user);
+  //   });
 
-    // load the base page so we can set the token
-    browser.url("./");
+  //   // load the base page so we can set the token
+  //   browser.url("./");
 
-    // inject the auth token
-    browser.execute((browserToken) => {
-      window.localStorage.setItem("id_token", browserToken);
-    }, token);
-  }
+  //   // inject the auth token
+  //   browser.execute((browserToken) => {
+  //     window.localStorage.setItem("id_token", browserToken);
+  //   }, token);
+  // }
 }
 
 module.exports = new Auth();

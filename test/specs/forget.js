@@ -4,7 +4,7 @@ const {
   invalidEmpty,
   invalidFormat,
 } = require("../fixtures/forgot.data");
-
+/*
 // 2. show 2 test cases
 // 2.1 negative, invalid email (empty email, incorrect format)
 // 2.2 positive, valid email
@@ -31,3 +31,4 @@ describe("Forgot password", () => {
     expect(passwordReset.$flash).toBeExisting();
   });
 });
+*/
