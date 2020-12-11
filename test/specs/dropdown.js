@@ -1,5 +1,5 @@
 const dropdownPage = require("../page-objects/dropdown.page");
-
+/*
 describe("Task 5", () => {
   beforeEach(() => {
     dropdownPage.load(); // browser.url("./");
@@ -10,3 +10,4 @@ describe("Task 5", () => {
     dropdownPage.checkMenuItem();
   });
 });
+*/
