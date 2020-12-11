@@ -1,7 +1,7 @@
 const home = require("../page-objects/home.page");
 const { user2 } = require("../fixtures/users");
 
-describe("Home page", () => {
+describe.skip("Home page", () => {
   before(() => {
     home.load();
   });
