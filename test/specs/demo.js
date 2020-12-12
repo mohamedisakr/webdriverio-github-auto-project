@@ -64,7 +64,7 @@ describe.skip("Task 7", () => {
 });
 
 //
-describe("Task 8", () => {
+describe.skip("Task 8", () => {
   it("TypeScript language", () => {
     // 1. go to github
     browser.url("https://github.com/");
@@ -85,5 +85,33 @@ describe("Task 8", () => {
 
     // 5. check the address of the page address link contains the word "webdriverio"
     expect(browser.getUrl()).toHaveTextContaining("webdriverio"); //.toHaveAttributeContaining("href", "webdriverio"); //toHaveTextContaining("webdriverio");
+  });
+});
+
+describe("Task 9", () => {
+  it("GitHub Enterprise", () => {
+    // 1. go to github
+    browser.url("https://github.com/");
+
+    // 2. go to "Get started with GitHub Enterprise" banner
+    const $enterpriseButton = $(
+      "[class='border-bottom border-lg-bottom-0 mr-0 mr-lg-3'] a[href='/enterprise']"
+    );
+    $enterpriseButton.click();
+
+    // 3. click "Start a free trial" button, then you will be redirected to another page
+    const $startTrial = $("=Start a free trial");
+    $startTrial.click();
+
+    // 4. click "Enterprise Cloud" banner, then you will be redirected to another page
+    const $enterpriseCloud = $(".currency-container:nth-child(1) .h1");
+    $enterpriseCloud.click();
+    // browser.waitUntil(
+    //   () => {
+    //     $enterpriseCloud.isDisplayed();
+    //   },
+    //   { timeoutMessage: `Enterprise Cloud bannar not found` }
+    // );
+    // 5. type Username, Email address, Password, and all other fields
   });
 });
