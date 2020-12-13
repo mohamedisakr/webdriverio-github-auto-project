@@ -2,7 +2,7 @@
 describe.skip("Task 6", () => {
   it("price and plans", () => {
     // 1. go to github
-    browser.url("https://github.com/pricing"); //("https://github.com/");
+    browser.url("https://github.com/pricing"); // https://github.com/pricing
 
     // 2. go to the top left menu items and click Pricing then Plans
     // const $pricing = $("=Pricing");
