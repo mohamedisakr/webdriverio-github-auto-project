@@ -45,6 +45,8 @@ describe.skip("Task 7", () => {
     // 1. go to github
     browser.url("https://github.com/explore"); // ("https://github.com/");
 
+    // https://github.com/explore
+
     // 2. click explore menu, then "Explore GitHut"
     // const $explore = $("a[href='/explore']");
     // $explore.click();
