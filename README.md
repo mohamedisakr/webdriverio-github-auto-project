@@ -21,7 +21,7 @@
 3. type your username/email and password and then click Sign in
 4. check if it will redirect you to your profile
 
-##### Task 4
+##### Task 4 (working)
 
 1. go to github
 2. click Sign in the top right corner

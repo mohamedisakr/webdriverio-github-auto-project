@@ -20,7 +20,7 @@ class PasswordReset extends PageBase {
   }
 
   get $flash() {
-    return $("#js-flash-container");
+    return $("[class='container-lg px-2']"); // $("#js-flash-container");
   }
 
   reset(email) {
@@ -33,6 +33,7 @@ class PasswordReset extends PageBase {
         const submitInExist = this.$submit.isExisting();
         const errorMessageExist = this.$flash.isExisting();
         return !submitInExist || errorMessageExist;
+        // return !submitInExist;
       },
       {
         timoutMsg:
