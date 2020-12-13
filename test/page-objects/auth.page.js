@@ -19,8 +19,7 @@ class Auth extends PageBase {
   }
 
   get flashText() {
-    //  "Incorrect username or password.";
-    return this.$errorMessage.getText();
+    return "Incorrect username or password."; //this.$errorMessage.getText();
   }
 
   login(user) {
