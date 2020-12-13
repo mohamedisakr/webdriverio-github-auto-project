@@ -1,6 +1,6 @@
 const dropdownPage = require("../page-objects/dropdown.page");
 /*
-describe("Task 5", () => {
+describe("Task 5: mouse hover every item", () => {
   beforeEach(() => {
     dropdownPage.load(); // browser.url("./");
   });
@@ -10,4 +10,4 @@ describe("Task 5", () => {
     dropdownPage.checkMenuItem();
   });
 });
-*/
+// */
