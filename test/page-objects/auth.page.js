@@ -15,7 +15,12 @@ class Auth extends PageBase {
   }
 
   get $errorMessage() {
-    return $("#js-flash-container");
+    return $("div[class='container-lg px-2']"); //$("#js-flash-container");
+  }
+
+  get flashText() {
+    //  "Incorrect username or password.";
+    return this.$errorMessage.getText();
   }
 
   login(user) {
@@ -38,24 +43,6 @@ class Auth extends PageBase {
       }
     );
   }
-
-  // clearSession() {
-  //   browser.execute(() => window.localStorage.clear());
-  // }
-
-  // loginViaApi(user) {
-  //   const token = browser.call(() => {
-  //     return api.getAuthToken(user);
-  //   });
-
-  //   // load the base page so we can set the token
-  //   browser.url("./");
-
-  //   // inject the auth token
-  //   browser.execute((browserToken) => {
-  //     window.localStorage.setItem("id_token", browserToken);
-  //   }, token);
-  // }
 }
 
 module.exports = new Auth();

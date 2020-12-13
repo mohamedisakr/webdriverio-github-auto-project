@@ -1,4 +1,4 @@
-// /*
+/*
 describe.skip("Task 6", () => {
   it("price and plans", () => {
     // 1. go to github
@@ -38,7 +38,7 @@ describe.skip("Task 6", () => {
     expect($banner).toBeDisplayed();
   });
 });
-// */
+
 
 describe.skip("Task 7", () => {
   it("Explore GitHut", () => {
@@ -133,3 +133,4 @@ describe("Task 10", () => {
     // 5. type Username, Email address, Password, and all other fields
   });
 });
+*/

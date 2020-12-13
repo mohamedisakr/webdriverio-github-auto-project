@@ -93,10 +93,10 @@
 
 1. Task 11: render the result as HTML Table
 
-### Points to review
+### Points to Consider
 
-1. WebdriverIO best practices
-2. Project structure
+1. Project structure
+2. WebdriverIO best practices
 3. Parallel Testing
 4. Design Patterns for Scalable Test Automation
 
