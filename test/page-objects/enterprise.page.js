@@ -29,6 +29,14 @@ class EnterprisePage extends PageBase {
   goServer() {
     this.$server.click();
   }
+
+  get $username() {
+    return $("#user_login");
+  }
+
+  get $contactName() {
+    return $("#contact_request_name");
+  }
 }
 
 module.exports = new EnterprisePage();

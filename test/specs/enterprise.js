@@ -10,7 +10,7 @@ describe("Task 9 Enterprise Cloud", () => {
   it("should search for webdriverio", () => {
     enterprisePage.StartFreeTrial();
     enterprisePage.goCloud();
-    //   expect(browser).toHaveUrl("webdriverio", { containing: true });
+    expect(enterprisePage.$username).toBeExisting();
   });
 });
 
@@ -25,6 +25,6 @@ describe("Task 10 Enterprise Server", () => {
   it("should search for webdriverio", () => {
     enterprisePage.StartFreeTrial();
     enterprisePage.goServer();
-    //   expect(browser).toHaveUrl("webdriverio", { containing: true });
+    expect(enterprisePage.$contactName).toBeExisting();
   });
 });

@@ -1,3 +1,8 @@
+### Resources
+
+Автоматизация тестирования на JavaScript + webdriverIO (Vadym Morozov)
+https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
+
 ### Tasks
 
 ##### Task 1 (working)
@@ -82,11 +87,6 @@
 3. click on Open positions
 4. output all Open positions in console `<div class="pb-md-6">`
 
-### Resources
-
-Автоматизация тестирования на JavaScript + webdriverIO (Vadym Morozov)
-https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
-
 ### Remarks
 
 1.
@@ -129,32 +129,3 @@ https://w3c.github.io/webdriver/#locator-strategies
 2. acceptAlert
 3. getAlertText
 4. sendAlertText
-
-### tool that checks for dead links
-
-W3C's link checker
-https://validator.w3.org/checklink
-
-### API explanations
-
-- What is an API?
-  https://dev.to/mercier_remi/what-is-an-api-4ao9
-- What is an API Gateway?
-  https://dev.to/bearer/what-is-an-api-gateway-42i6
-- An Introduction to APIs
-  https://zapier.com/learn/apis/chapter-1-introduction-to-apis/
-- What exactly IS an API?
-  https://medium.com/@perrysetgo/what-exactly-is-an-api-69f36968a41f
-- Introduction to web APIs
-  https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
-
-### Node.js HTTP request libraries
-
-- Got  
-  https://github.com/sindresorhus/got
-- node-fetch  
-  https://github.com/bitinn/node-fetch
-- Axios  
-  https://github.com/axios/axios
-- Request  
-  https://github.com/request/request
