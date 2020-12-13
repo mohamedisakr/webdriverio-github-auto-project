@@ -3,7 +3,7 @@ const { user1 } = require("../fixtures/users");
 
 // /*
 //
-describe("Task 3: Login Page", () => {
+describe.skip("Task 3: Login Page", () => {
   //
   before(() => {});
 

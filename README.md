@@ -1,6 +1,6 @@
 ### Tasks
 
-##### Task 1
+##### Task 1 (working)
 
 1. go to github
 2. click Sign up button
@@ -8,13 +8,13 @@
 4. check that you are redircted to github.com/join
 5. check there is a label with text "Verify your account"
 
-##### Task 2
+##### Task 2 (does not exist)
 
 1. go to github
 2. scroll down and check register by providing username, email, and password then click Sign up for GitHub button
 3. do as Task 1 steps 3 & 4
 
-##### Task 3
+##### Task 3 (working)
 
 1. go to github
 2. click Sign in the top right corner
@@ -75,7 +75,7 @@
 4. click "Enterprise Server" banner, then you will be redirected to another page
 5. type Name, Company, Work email, Phone number, Choose your installation type, Do you have any other questions about GitHub Enterprise?, Accept terms of use, Verify you're not a robot and click on "Get Started" button
 
-##### Task 11
+##### Task 11 (working)
 
 1. go to github
 2. scroll down and click on Careers
@@ -84,14 +84,12 @@
 
 ### Resources
 
-1. Автоматизация тестирования на JavaScript + webdriverIO (Vadym Morozov)
-   https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
-
-2.
+Автоматизация тестирования на JavaScript + webdriverIO (Vadym Morozov)
+https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
 
 ### Remarks
 
-1. Task 11: render the result as HTML Table
+1.
 
 ### Points to Consider
 
