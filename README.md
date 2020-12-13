@@ -5,7 +5,7 @@ https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
 
 ### Tasks
 
-##### Task 1 (working)
+##### Task 1 (specs/home.js)
 
 1. go to github
 2. click Sign up button
@@ -19,14 +19,14 @@ https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
 2. scroll down and check register by providing username, email, and password then click Sign up for GitHub button
 3. do as Task 1 steps 3 & 4
 
-##### Task 3 (working)
+##### Task 3 (specs/login.js)
 
 1. go to github
 2. click Sign in the top right corner
 3. type your username/email and password and then click Sign in
 4. check if it will redirect you to your profile
 
-##### Task 4 (working)
+##### Task 4 (specs/forget.js)
 
 1. go to github
 2. click Sign in the top right corner
@@ -35,13 +35,13 @@ https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
    4.1 negative, invalid email (empty email, incorrect format)
    4.2 positive, valid email
 
-##### Task 5 (working)
+##### Task 5 (specs/dropdown.js)
 
 1. go to github
 2. go to the top left menu items and mouse hover every item
 3. check every item have drop down menu
 
-##### Task 6
+##### Task 6 (specs/pricing.js)
 
 1. go to github
 2. go to the top left menu items and click Pricing then Plans
@@ -49,14 +49,14 @@ https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
 4. it will redirect to "Create your account"
 5. type Username, Email address, Password, and all other fields
 
-##### Task 7
+##### Task 7 (specs/explore.js)
 
 1. go to github
 2. click explore menu, then "Explore GitHut"
 3. go to Topics tab
 4. check if "Topics Browse popular topics on GitHub." banner exist
 
-##### Task 8
+##### Task 8 (specs/search.js)
 
 1. go to github
 2. go to search box and type webdriverio and press enter
@@ -64,7 +64,7 @@ https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
 4. click the first result "igniteram/appium-webdriverio-typescript"
 5. check the address of the page address link contains the word "webdriverio"
 
-##### Task 9
+##### Task 9 (specs/enterprise.js)
 
 1. go to github
 2. go to "Get started with GitHub Enterprise" banner
@@ -72,7 +72,7 @@ https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
 4. click "Enterprise Cloud" banner, then you will be redirected to another page
 5. type Username, Email address, Password, and all other fields
 
-##### Task 10
+##### Task 10 (specs/enterprise.js)
 
 1. go to github
 2. go to "Get started with GitHub Enterprise" banner
@@ -80,7 +80,7 @@ https://www.youtube.com/playlist?list=PLP1-M5OhC7yjAZ1-llDH45nxLfKKbcxGe
 4. click "Enterprise Server" banner, then you will be redirected to another page
 5. type Name, Company, Work email, Phone number, Choose your installation type, Do you have any other questions about GitHub Enterprise?, Accept terms of use, Verify you're not a robot and click on "Get Started" button
 
-##### Task 11 (working)
+##### Task 11 (specs/career.js)
 
 1. go to github
 2. scroll down and click on Careers

@@ -1,5 +1,5 @@
 const searchPage = require("../page-objects/search.page");
-/*
+// /*
 describe("Task 8 search", () => {
   //
   beforeEach(() => {

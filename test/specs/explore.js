@@ -1,6 +1,6 @@
 const explorePage = require("../page-objects/explore.page");
 const { isSubstringFound } = require("../utils/functions");
-/*
+// /*
 describe("Task 7 explore -> topics", () => {
   //
   beforeEach(() => {

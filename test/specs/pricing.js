@@ -1,7 +1,7 @@
 const pricingPage = require("../page-objects/pricing.page");
 const { isSubstringFound } = require("../utils/functions");
 
-/*
+// /*
 describe("Task 6 plans -> Join for free", () => {
   //
   beforeEach(() => {
@@ -28,4 +28,4 @@ describe("Task 6 plans -> Join for free", () => {
     expect(url).toContain(join);
   });
 });
-*/
+// */

@@ -1,5 +1,5 @@
 const career = require("../page-objects/career.page");
-/*
+// /*
 describe("Task 11: Career Open posistions", () => {
   it("should list all open positions", () => {
     //
