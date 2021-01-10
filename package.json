@@ -4,7 +4,7 @@
   "description": "1. WebdriverIO best practices 2. Project structure 3. Parallel Testing",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio wdio.conf.js"
+    "test": "npx wdio wdio.conf.js --spec ./test/specs/broken-link-checker.js"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,9 @@
     "@wdio/sync": "^6.10.4",
     "chromedriver": "^87.0.2",
     "wdio-chromedriver-service": "^6.0.4"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "node-fetch": "^2.6.1"
   }
 }
