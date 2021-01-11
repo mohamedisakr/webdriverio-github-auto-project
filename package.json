@@ -4,7 +4,7 @@
   "description": "1. WebdriverIO best practices 2. Project structure 3. Parallel Testing",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio wdio.conf.js --spec ./test/specs/broken-link-checker.js"
+    "test": "npx wdio wdio.conf.js"
   },
   "keywords": [],
   "author": "",
